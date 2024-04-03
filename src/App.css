@@ -42,7 +42,7 @@
 }
 .container {
   padding: 20px;
+  width: 1280px;
   background-color: rgb(149, 182, 168);
   border-radius: 8px;
-  width: 700px;
 }

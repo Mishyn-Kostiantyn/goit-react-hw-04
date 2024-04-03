@@ -1,4 +1,12 @@
-.formContainer {
+.photoCard {
+  width: 250px;
+  height: 150px;
+  transition: scale 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.photoCard:hover {
+  scale: 1.05;
+}
+/* .formContainer {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -39,7 +47,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
+/*letter-spacing: 0.64px;
   color: #fff;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: transparent;
@@ -50,4 +58,4 @@
 .submitFormButton:focus {
   background: #03562e;
   outline: none;
-}
+} */
